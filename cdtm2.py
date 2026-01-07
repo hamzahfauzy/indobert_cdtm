@@ -31,7 +31,7 @@ DOMAIN_STOPWORDS = set([
     "semoga", "selalu", "udah", "jadi", "mau", "tahun", "lolos", "anak",
     "lulus", "batch", "gimana", "kasih", "email", "banyak", "kerja", "sukses", "semangat",
     "seleksi", "program", "jam", "tim", "kurang", "apa", "gram", "surat", "cross", "mana",
-    "salah"
+    "salah", "sama"
 ])
 
 def remove_domain_stopwords(tokens):
