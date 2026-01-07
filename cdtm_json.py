@@ -42,27 +42,6 @@ def remove_domain_stopwords(tokens):
 
 STOPWORDS_FINAL = set(stopwords).union(DOMAIN_STOPWORDS)
 
-def simple_tokenize(text):
-    text = text.lower()
-    text = re.sub(r"[^a-z\s]", " ", text)
-    return text.split()
-
-def assign_topic(tokens, topic_labels, time_slice):
-    labels_this_slice = topic_labels.get(time_slice, {})
-    scores = {}
-
-    for topic_id, label in labels_this_slice.items():
-        keywords = label.split("_")
-        score = sum(1 for k in keywords if k in tokens)
-        scores[topic_id] = score
-
-    # jika semua skor 0 → noise
-    if max(scores.values(), default=0) == 0:
-        return -1  # unknown / noise
-
-    return max(scores, key=scores.get)
-
-
 warnings.filterwarnings(
     "ignore",
     category=RuntimeWarning,
@@ -166,88 +145,30 @@ ldaseq = LdaSeqModel(
     passes=1   # PENTING
 )
 
-# =========================================
-# 9. CETAK TOPIK PER WAKTU
-# =========================================
+cdtm_result = {}
+
 for time in range(len(time_slices)):
-    print(f"\n===== TIME SLICE {time} =====")
+    cdtm_result[time] = {}
     topics = ldaseq.print_topics(time=time, top_terms=10)
 
-    for topic in topics:
-        topic_id = topic[0]
-        topic_terms = topic[1]
-        print(f"Topic {topic_id}: {topic_terms}")
+    for topic_id, topic_str in topics:
+        terms = []
 
+        # parsing: 0.053*sppi + 0.017*seleksi
+        for item in topic_str.split(" + "):
+            weight, word = item.split("*")
+            terms.append({
+                "word": word.strip(),
+                "weight": float(weight)
+            })
 
-def map_topic_labels_dynamic(model, time_slices, top_terms=5):
-    """
-    Label topik per time slice untuk melihat pergeseran narasi
-    """
-    labels = {}
+        cdtm_result[time][topic_id] = terms
 
-    for t in range(len(time_slices)):
-        labels[t] = {}
-        for topic_id in range(model.num_topics):
-            terms = model.print_topic(topic_id, time=t, top_terms=top_terms)
-            words = [w for w, _ in terms]
-            labels[t][topic_id] = "_".join(words[:2])
-
-    return labels
-
-def track_words(model, words, time_slices):
-    """
-    Track probabilitas kata per time slice di semua topik.
-    words: list of words yang ingin di-track
-    return: dict {word: [list probabilitas per slice]}
-    """
-    trend_dict = {w: [] for w in words}
-
-    for t in range(len(time_slices)):
-        topics = model.print_topics(time=t, top_terms=50)
-
-        # Buat dict kata -> total probabilitas di semua topik
-        word_prob = {w:0.0 for w in words}
-
-        for top in topics:
-            # top = ((kata1, prob1), (kata2, prob2), ...)
-            for pair in top:
-                w, p = pair
-                if w in words:
-                    word_prob[w] += p
-
-        # Append hasil tiap slice
-        for w in words:
-            trend_dict[w].append(word_prob[w])
-
-    return trend_dict
-
-def plot_trends(trend_dict):
-    """
-    Plot tren kata per time slice
-    """
-    plt.figure(figsize=(10,6))
-    for word, trend in trend_dict.items():
-        plt.plot(trend, marker='o', label=word)
-    plt.xlabel("Time Slice")
-    plt.ylabel("Probabilitas")
-    plt.title("Tren Kata per Time Slice di cDTM")
-    plt.legend()
-    plt.show()
-
-
-# 1. Buat label topik otomatis (opsional, untuk interpretasi)
-topic_labels = map_topic_labels_dynamic(ldaseq, time_slices)
-print(topic_labels)
+# simpan ke file
+with open("cdtm_topics.json", "w", encoding="utf-8") as f:
+    json.dump(cdtm_result, f, ensure_ascii=False, indent=2)
 
 end_time = datetime.now()
 duration = end_time - start_time
 print(f"Script finished at : {end_time}")
 print(f"Durasi eksekusi : {duration}")
-# contoh output: {0: 'di_tidak', 1: 'min_tidak', 2: 'kami_untuk'}
-
-# 2. Track kata yang ingin dianalisis
-# words_to_track = ["makan", "program", "mbg", "dapur", "gizi", "sppi", "lulus", "lolos", "bgn"]
-# trend_dict = track_words(ldaseq, words_to_track, time_slices)
-
-# 3. Plot hasil
-# plot_trends(trend_dict)
