@@ -240,6 +240,7 @@ print(topic_labels)
 
 end_time = datetime.now()
 duration = end_time - start_time
+print(f"Script finished at : {end_time}")
 print(f"Durasi eksekusi : {duration}")
 # contoh output: {0: 'di_tidak', 1: 'min_tidak', 2: 'kami_untuk'}
 
