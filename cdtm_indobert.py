@@ -227,6 +227,9 @@ output_columns = [
     "dominant_topic"
 ]
 
+df["created_at_dt"] = df["created_at_dt"].astype(str)
+df["time_slice"] = df["time_slice"].astype(str)
+
 output_data = df[output_columns].to_dict(orient="records")
 
 with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
