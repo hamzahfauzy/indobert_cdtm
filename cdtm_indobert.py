@@ -224,7 +224,8 @@ output_columns = [
     "probabilities",
     "time_slice",
     "time_slice_id",
-    "dominant_topic"
+    "dominant_topic",
+    "dominant_topic_label",
 ]
 
 df["created_at_dt"] = df["created_at_dt"].astype(str)
