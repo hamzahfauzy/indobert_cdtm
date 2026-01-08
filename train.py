@@ -18,7 +18,7 @@ MODEL_NAME = "indobenchmark/indobert-base-p1"
 DATASET_PATH = "dataset_labeled.json"
 NUM_LABELS = 3
 MAX_LENGTH = 128
-BATCH_SIZE = 16
+BATCH_SIZE = 18
 EPOCHS = 3
 LR = 2e-5
 SEED = 42
@@ -141,6 +141,17 @@ trainer = Trainer(
 # TRAIN
 # =============================
 trainer.train()
+pred_output = trainer.predict(test_dataset)
+
+# y_pred dan y_true
+y_pred = np.argmax(pred_output.predictions, axis=1)
+y_true = pred_output.label_ids
+
+# Simpan ke JSON
+import json
+pred_dict = {"y_true": y_true.tolist(), "y_pred": y_pred.tolist()}
+with open("predictions.json", "w") as f:
+    json.dump(pred_dict, f, indent=4)
 
 # =============================
 # EVALUATION
@@ -149,6 +160,10 @@ eval_result = trainer.evaluate()
 print("\nEvaluation Result:")
 for k, v in eval_result.items():
     print(f"{k}: {v:.4f}")
+
+    # Simpan ke JSON
+with open("eval_result.json", "w") as f:
+    json.dump(eval_result, f, indent=4)
 
 # =============================
 # SAVE MODEL
