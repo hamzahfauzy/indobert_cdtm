@@ -1,0 +1,2792 @@
+{
+  "0": {
+    "0": {
+      "terms": [
+        {
+          "word": "susu",
+          "weight": 0.026064105508216164
+        },
+        {
+          "word": "buah",
+          "weight": 0.025923723891821026
+        },
+        {
+          "word": "protein",
+          "weight": 0.025424224575170296
+        },
+        {
+          "word": "piring",
+          "weight": 0.022676317879601292
+        },
+        {
+          "word": "makan",
+          "weight": 0.021933128027107625
+        },
+        {
+          "word": "karbohidrat",
+          "weight": 0.02068237605683662
+        },
+        {
+          "word": "sumber",
+          "weight": 0.01942490951298212
+        },
+        {
+          "word": "nasi",
+          "weight": 0.019337044436912653
+        },
+        {
+          "word": "seimbang",
+          "weight": 0.018843289056901878
+        },
+        {
+          "word": "sayur",
+          "weight": 0.018717272740832815
+        }
+      ]
+    },
+    "1": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.07304560574224345
+        },
+        {
+          "word": "bgn",
+          "weight": 0.03380384298163206
+        },
+        {
+          "word": "dapur",
+          "weight": 0.027308335857463378
+        },
+        {
+          "word": "sppg",
+          "weight": 0.026523959839000393
+        },
+        {
+          "word": "yayasan",
+          "weight": 0.016531879372405703
+        },
+        {
+          "word": "menjadi",
+          "weight": 0.015136082329493166
+        },
+        {
+          "word": "umur",
+          "weight": 0.01454943971766588
+        },
+        {
+          "word": "rekrutmen",
+          "weight": 0.013786104993003973
+        },
+        {
+          "word": "mitra",
+          "weight": 0.013264177955941956
+        },
+        {
+          "word": "terima",
+          "weight": 0.011861067050233865
+        }
+      ]
+    },
+    "2": {
+      "terms": [
+        {
+          "word": "gizi",
+          "weight": 0.10267726252162498
+        },
+        {
+          "word": "gaji",
+          "weight": 0.03801938241961918
+        },
+        {
+          "word": "ahli",
+          "weight": 0.03164318706882663
+        },
+        {
+          "word": "badan",
+          "weight": 0.028206746579579046
+        },
+        {
+          "word": "nasional",
+          "weight": 0.020823127583049383
+        },
+        {
+          "word": "sppi",
+          "weight": 0.018246789054409105
+        },
+        {
+          "word": "bayar",
+          "weight": 0.011576676927038048
+        },
+        {
+          "word": "akuntan",
+          "weight": 0.01031751059030418
+        },
+        {
+          "word": "hak",
+          "weight": 0.010183668274803813
+        },
+        {
+          "word": "pakbu",
+          "weight": 0.009631429865693002
+        }
+      ]
+    },
+    "3": {
+      "terms": [
+        {
+          "word": "mbg",
+          "weight": 0.03057753353661411
+        },
+        {
+          "word": "makan",
+          "weight": 0.026506531975685844
+        },
+        {
+          "word": "sekolah",
+          "weight": 0.024508799764653134
+        },
+        {
+          "word": "gratis",
+          "weight": 0.015307973746774435
+        },
+        {
+          "word": "indonesia",
+          "weight": 0.014693136201240234
+        },
+        {
+          "word": "makanan",
+          "weight": 0.014134116832715376
+        },
+        {
+          "word": "baik",
+          "weight": 0.011666030287469261
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.011436814979354507
+        },
+        {
+          "word": "sehat",
+          "weight": 0.010195959041132885
+        },
+        {
+          "word": "terus",
+          "weight": 0.007824514462695926
+        }
+      ]
+    },
+    "4": {
+      "terms": [
+        {
+          "word": "bergizi",
+          "weight": 0.05740986301154681
+        },
+        {
+          "word": "makan",
+          "weight": 0.05114032295975724
+        },
+        {
+          "word": "latihan",
+          "weight": 0.046592561135804414
+        },
+        {
+          "word": "makanan",
+          "weight": 0.03890392377066032
+        },
+        {
+          "word": "tempat",
+          "weight": 0.03819462379762768
+        },
+        {
+          "word": "sangat",
+          "weight": 0.0360400555782654
+        },
+        {
+          "word": "sering",
+          "weight": 0.03601784020873742
+        },
+        {
+          "word": "masak",
+          "weight": 0.035946864614538165
+        },
+        {
+          "word": "bapakibu",
+          "weight": 0.035784955188821285
+        },
+        {
+          "word": "peralatan",
+          "weight": 0.03362957547704327
+        }
+      ]
+    },
+    "5": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.04457516660507567
+        },
+        {
+          "word": "info",
+          "weight": 0.024105783225593938
+        },
+        {
+          "word": "daftar",
+          "weight": 0.021303688886690906
+        },
+        {
+          "word": "pendaftaran",
+          "weight": 0.014164968092692019
+        },
+        {
+          "word": "berkas",
+          "weight": 0.010228121696422395
+        },
+        {
+          "word": "peserta",
+          "weight": 0.009485853413006626
+        },
+        {
+          "word": "buat",
+          "weight": 0.009393955671678517
+        },
+        {
+          "word": "proses",
+          "weight": 0.00857668414265972
+        },
+        {
+          "word": "verifikasi",
+          "weight": 0.008155228182528302
+        },
+        {
+          "word": "pengumuman",
+          "weight": 0.008127527675117851
+        }
+      ]
+    },
+    "6": {
+      "terms": [
+        {
+          "word": "orang",
+          "weight": 0.024513750250861978
+        },
+        {
+          "word": "bgn",
+          "weight": 0.016006782061133297
+        },
+        {
+          "word": "masyarakat",
+          "weight": 0.014280219676605898
+        },
+        {
+          "word": "ordal",
+          "weight": 0.012708981395004515
+        },
+        {
+          "word": "kalian",
+          "weight": 0.012548086350060125
+        },
+        {
+          "word": "lulusan",
+          "weight": 0.012117199739840562
+        },
+        {
+          "word": "biar",
+          "weight": 0.0109392552847339
+        },
+        {
+          "word": "bikin",
+          "weight": 0.010383301125050868
+        },
+        {
+          "word": "jangan",
+          "weight": 0.009923126029350492
+        },
+        {
+          "word": "banget",
+          "weight": 0.009644259121396609
+        }
+      ]
+    }
+  },
+  "1": {
+    "0": {
+      "terms": [
+        {
+          "word": "susu",
+          "weight": 0.0261731272125534
+        },
+        {
+          "word": "buah",
+          "weight": 0.02616390690760937
+        },
+        {
+          "word": "protein",
+          "weight": 0.025673046052808336
+        },
+        {
+          "word": "piring",
+          "weight": 0.022968981617421894
+        },
+        {
+          "word": "makan",
+          "weight": 0.02204036362493009
+        },
+        {
+          "word": "karbohidrat",
+          "weight": 0.020906587521731426
+        },
+        {
+          "word": "sumber",
+          "weight": 0.01963559901197253
+        },
+        {
+          "word": "nasi",
+          "weight": 0.0192366334695306
+        },
+        {
+          "word": "seimbang",
+          "weight": 0.0188344693391925
+        },
+        {
+          "word": "sayur",
+          "weight": 0.018350761881435442
+        }
+      ]
+    },
+    "1": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.06875775244825215
+        },
+        {
+          "word": "bgn",
+          "weight": 0.03490316631694268
+        },
+        {
+          "word": "dapur",
+          "weight": 0.028608348887038067
+        },
+        {
+          "word": "sppg",
+          "weight": 0.028176119688537594
+        },
+        {
+          "word": "yayasan",
+          "weight": 0.017231648147335465
+        },
+        {
+          "word": "menjadi",
+          "weight": 0.01549918197394938
+        },
+        {
+          "word": "umur",
+          "weight": 0.013573960485475569
+        },
+        {
+          "word": "mitra",
+          "weight": 0.013467847048001778
+        },
+        {
+          "word": "rekrutmen",
+          "weight": 0.013387751381471321
+        },
+        {
+          "word": "terima",
+          "weight": 0.012012805114971813
+        }
+      ]
+    },
+    "2": {
+      "terms": [
+        {
+          "word": "gizi",
+          "weight": 0.10077909360142479
+        },
+        {
+          "word": "gaji",
+          "weight": 0.04056695424285541
+        },
+        {
+          "word": "ahli",
+          "weight": 0.03060017607945936
+        },
+        {
+          "word": "badan",
+          "weight": 0.02753836431455392
+        },
+        {
+          "word": "nasional",
+          "weight": 0.02038905797394242
+        },
+        {
+          "word": "sppi",
+          "weight": 0.018709746437460515
+        },
+        {
+          "word": "bayar",
+          "weight": 0.011553799134903241
+        },
+        {
+          "word": "akuntan",
+          "weight": 0.010567772532400918
+        },
+        {
+          "word": "hak",
+          "weight": 0.010324333915502427
+        },
+        {
+          "word": "pakbu",
+          "weight": 0.009721471101603473
+        }
+      ]
+    },
+    "3": {
+      "terms": [
+        {
+          "word": "mbg",
+          "weight": 0.03272435714693553
+        },
+        {
+          "word": "makan",
+          "weight": 0.024671830462914157
+        },
+        {
+          "word": "sekolah",
+          "weight": 0.02221780915788417
+        },
+        {
+          "word": "indonesia",
+          "weight": 0.014568074945872702
+        },
+        {
+          "word": "gratis",
+          "weight": 0.014409320091755318
+        },
+        {
+          "word": "makanan",
+          "weight": 0.014330884651305968
+        },
+        {
+          "word": "baik",
+          "weight": 0.011509788927780203
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.011318443044073959
+        },
+        {
+          "word": "sehat",
+          "weight": 0.010282909051621419
+        },
+        {
+          "word": "terus",
+          "weight": 0.007898467241454299
+        }
+      ]
+    },
+    "4": {
+      "terms": [
+        {
+          "word": "bergizi",
+          "weight": 0.05592709866985417
+        },
+        {
+          "word": "makan",
+          "weight": 0.05047029510228413
+        },
+        {
+          "word": "latihan",
+          "weight": 0.04722354420095962
+        },
+        {
+          "word": "makanan",
+          "weight": 0.038581252292349606
+        },
+        {
+          "word": "tempat",
+          "weight": 0.03803889134564406
+        },
+        {
+          "word": "sangat",
+          "weight": 0.036037628902600975
+        },
+        {
+          "word": "sering",
+          "weight": 0.035892069305648394
+        },
+        {
+          "word": "masak",
+          "weight": 0.03587721748449418
+        },
+        {
+          "word": "bapakibu",
+          "weight": 0.035632048803292474
+        },
+        {
+          "word": "peralatan",
+          "weight": 0.03364634665725498
+        }
+      ]
+    },
+    "5": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.041348110778061616
+        },
+        {
+          "word": "info",
+          "weight": 0.021248853667805472
+        },
+        {
+          "word": "daftar",
+          "weight": 0.020228425009515764
+        },
+        {
+          "word": "pendaftaran",
+          "weight": 0.013217169212051537
+        },
+        {
+          "word": "berkas",
+          "weight": 0.010484819924504733
+        },
+        {
+          "word": "peserta",
+          "weight": 0.0097414464810706
+        },
+        {
+          "word": "buat",
+          "weight": 0.009614189265259965
+        },
+        {
+          "word": "proses",
+          "weight": 0.008631029483317615
+        },
+        {
+          "word": "pengumuman",
+          "weight": 0.008291597159715074
+        },
+        {
+          "word": "verifikasi",
+          "weight": 0.008041662442517339
+        }
+      ]
+    },
+    "6": {
+      "terms": [
+        {
+          "word": "orang",
+          "weight": 0.0243884291496625
+        },
+        {
+          "word": "bgn",
+          "weight": 0.016196749695981703
+        },
+        {
+          "word": "masyarakat",
+          "weight": 0.014435307970575817
+        },
+        {
+          "word": "ordal",
+          "weight": 0.01311422417687487
+        },
+        {
+          "word": "kalian",
+          "weight": 0.012767526798062544
+        },
+        {
+          "word": "lulusan",
+          "weight": 0.01182123446975237
+        },
+        {
+          "word": "biar",
+          "weight": 0.010711458410431593
+        },
+        {
+          "word": "bikin",
+          "weight": 0.010440417218092798
+        },
+        {
+          "word": "jangan",
+          "weight": 0.00983554494606913
+        },
+        {
+          "word": "banget",
+          "weight": 0.00974760276718331
+        }
+      ]
+    }
+  },
+  "2": {
+    "0": {
+      "terms": [
+        {
+          "word": "buah",
+          "weight": 0.026453024391411308
+        },
+        {
+          "word": "susu",
+          "weight": 0.026193141915089504
+        },
+        {
+          "word": "protein",
+          "weight": 0.02597463097399905
+        },
+        {
+          "word": "piring",
+          "weight": 0.02332312422513871
+        },
+        {
+          "word": "makan",
+          "weight": 0.022157248205316848
+        },
+        {
+          "word": "karbohidrat",
+          "weight": 0.021163089924481602
+        },
+        {
+          "word": "sumber",
+          "weight": 0.019869616874700263
+        },
+        {
+          "word": "nasi",
+          "weight": 0.019078833528443306
+        },
+        {
+          "word": "seimbang",
+          "weight": 0.018842094895520748
+        },
+        {
+          "word": "sayur",
+          "weight": 0.018003119617296042
+        }
+      ]
+    },
+    "1": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.06464252787007899
+        },
+        {
+          "word": "bgn",
+          "weight": 0.034852236559938646
+        },
+        {
+          "word": "dapur",
+          "weight": 0.030636784571185047
+        },
+        {
+          "word": "sppg",
+          "weight": 0.030295706204963805
+        },
+        {
+          "word": "yayasan",
+          "weight": 0.017679925808634943
+        },
+        {
+          "word": "menjadi",
+          "weight": 0.015898522244422387
+        },
+        {
+          "word": "mitra",
+          "weight": 0.01315185556472906
+        },
+        {
+          "word": "rekrutmen",
+          "weight": 0.01293869063933219
+        },
+        {
+          "word": "umur",
+          "weight": 0.012679268673067998
+        },
+        {
+          "word": "terima",
+          "weight": 0.012230663037122438
+        }
+      ]
+    },
+    "2": {
+      "terms": [
+        {
+          "word": "gizi",
+          "weight": 0.09749492158943895
+        },
+        {
+          "word": "gaji",
+          "weight": 0.04418694227566769
+        },
+        {
+          "word": "ahli",
+          "weight": 0.02969143525673269
+        },
+        {
+          "word": "badan",
+          "weight": 0.026283544098250025
+        },
+        {
+          "word": "nasional",
+          "weight": 0.019603001794680178
+        },
+        {
+          "word": "sppi",
+          "weight": 0.01910857160525005
+        },
+        {
+          "word": "bayar",
+          "weight": 0.011596900369171647
+        },
+        {
+          "word": "akuntan",
+          "weight": 0.010914715718047766
+        },
+        {
+          "word": "hak",
+          "weight": 0.01050157292539124
+        },
+        {
+          "word": "pakbu",
+          "weight": 0.009848638173688359
+        }
+      ]
+    },
+    "3": {
+      "terms": [
+        {
+          "word": "mbg",
+          "weight": 0.03560808020779566
+        },
+        {
+          "word": "makan",
+          "weight": 0.023058081263983517
+        },
+        {
+          "word": "sekolah",
+          "weight": 0.020568794578946493
+        },
+        {
+          "word": "indonesia",
+          "weight": 0.014640340338608277
+        },
+        {
+          "word": "makanan",
+          "weight": 0.014612916308251562
+        },
+        {
+          "word": "gratis",
+          "weight": 0.0135147223672727
+        },
+        {
+          "word": "baik",
+          "weight": 0.011367397148198823
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.01120852071476495
+        },
+        {
+          "word": "sehat",
+          "weight": 0.010451813744582247
+        },
+        {
+          "word": "terus",
+          "weight": 0.007968612552710558
+        }
+      ]
+    },
+    "4": {
+      "terms": [
+        {
+          "word": "bergizi",
+          "weight": 0.054068843434450946
+        },
+        {
+          "word": "makan",
+          "weight": 0.04935166766709395
+        },
+        {
+          "word": "latihan",
+          "weight": 0.04809759996244187
+        },
+        {
+          "word": "makanan",
+          "weight": 0.03821401213263033
+        },
+        {
+          "word": "tempat",
+          "weight": 0.03804198086883299
+        },
+        {
+          "word": "sangat",
+          "weight": 0.036178296741776604
+        },
+        {
+          "word": "sering",
+          "weight": 0.03590189914419068
+        },
+        {
+          "word": "masak",
+          "weight": 0.035609628856691264
+        },
+        {
+          "word": "bapakibu",
+          "weight": 0.03469424548379295
+        },
+        {
+          "word": "bahan",
+          "weight": 0.03378680717094212
+        }
+      ]
+    },
+    "5": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.03587441756532708
+        },
+        {
+          "word": "info",
+          "weight": 0.020492320451170713
+        },
+        {
+          "word": "daftar",
+          "weight": 0.018743315324619376
+        },
+        {
+          "word": "pendaftaran",
+          "weight": 0.012153041587675113
+        },
+        {
+          "word": "berkas",
+          "weight": 0.009799265865921204
+        },
+        {
+          "word": "peserta",
+          "weight": 0.009645268940969794
+        },
+        {
+          "word": "buat",
+          "weight": 0.009617656033738082
+        },
+        {
+          "word": "pengumuman",
+          "weight": 0.008716256538852106
+        },
+        {
+          "word": "dapur",
+          "weight": 0.008586569490710938
+        },
+        {
+          "word": "proses",
+          "weight": 0.008543974386499918
+        }
+      ]
+    },
+    "6": {
+      "terms": [
+        {
+          "word": "orang",
+          "weight": 0.0245951791791263
+        },
+        {
+          "word": "bgn",
+          "weight": 0.01616975029942976
+        },
+        {
+          "word": "masyarakat",
+          "weight": 0.01449191567332668
+        },
+        {
+          "word": "ordal",
+          "weight": 0.013683077256675707
+        },
+        {
+          "word": "kalian",
+          "weight": 0.012879702865959448
+        },
+        {
+          "word": "lulusan",
+          "weight": 0.011640204822563822
+        },
+        {
+          "word": "biar",
+          "weight": 0.010476631452072163
+        },
+        {
+          "word": "bikin",
+          "weight": 0.010475861173305285
+        },
+        {
+          "word": "banget",
+          "weight": 0.00991419596408375
+        },
+        {
+          "word": "jangan",
+          "weight": 0.009651925501345826
+        }
+      ]
+    }
+  },
+  "3": {
+    "0": {
+      "terms": [
+        {
+          "word": "buah",
+          "weight": 0.026811186148300116
+        },
+        {
+          "word": "protein",
+          "weight": 0.026335906500529607
+        },
+        {
+          "word": "susu",
+          "weight": 0.026165891175193804
+        },
+        {
+          "word": "piring",
+          "weight": 0.023839250894226383
+        },
+        {
+          "word": "makan",
+          "weight": 0.022270543214009692
+        },
+        {
+          "word": "karbohidrat",
+          "weight": 0.021547605397489383
+        },
+        {
+          "word": "sumber",
+          "weight": 0.020024046675294477
+        },
+        {
+          "word": "seimbang",
+          "weight": 0.018946125479718093
+        },
+        {
+          "word": "nasi",
+          "weight": 0.01892174262942381
+        },
+        {
+          "word": "sayur",
+          "weight": 0.01775782840828135
+        }
+      ]
+    },
+    "1": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.06248390768460175
+        },
+        {
+          "word": "bgn",
+          "weight": 0.034594695383045125
+        },
+        {
+          "word": "sppg",
+          "weight": 0.03293914443635026
+        },
+        {
+          "word": "dapur",
+          "weight": 0.03183063102920558
+        },
+        {
+          "word": "yayasan",
+          "weight": 0.0183153754238052
+        },
+        {
+          "word": "menjadi",
+          "weight": 0.01618119699565584
+        },
+        {
+          "word": "mitra",
+          "weight": 0.012621428910627256
+        },
+        {
+          "word": "rekrutmen",
+          "weight": 0.012556480304150679
+        },
+        {
+          "word": "terima",
+          "weight": 0.012515953682454754
+        },
+        {
+          "word": "umur",
+          "weight": 0.012009236798817768
+        }
+      ]
+    },
+    "2": {
+      "terms": [
+        {
+          "word": "gizi",
+          "weight": 0.09529977420076535
+        },
+        {
+          "word": "gaji",
+          "weight": 0.044691963248503795
+        },
+        {
+          "word": "ahli",
+          "weight": 0.028599588823360604
+        },
+        {
+          "word": "badan",
+          "weight": 0.025802817862087487
+        },
+        {
+          "word": "sppi",
+          "weight": 0.01972118648724962
+        },
+        {
+          "word": "nasional",
+          "weight": 0.019521487008492523
+        },
+        {
+          "word": "bayar",
+          "weight": 0.01152614842320751
+        },
+        {
+          "word": "akuntan",
+          "weight": 0.010957276750370058
+        },
+        {
+          "word": "hak",
+          "weight": 0.010213716728173396
+        },
+        {
+          "word": "pakbu",
+          "weight": 0.01020507281507055
+        }
+      ]
+    },
+    "3": {
+      "terms": [
+        {
+          "word": "mbg",
+          "weight": 0.03834276568426503
+        },
+        {
+          "word": "makan",
+          "weight": 0.021914836324254956
+        },
+        {
+          "word": "sekolah",
+          "weight": 0.019069642305818656
+        },
+        {
+          "word": "indonesia",
+          "weight": 0.015295779503769051
+        },
+        {
+          "word": "makanan",
+          "weight": 0.014806550897351755
+        },
+        {
+          "word": "gratis",
+          "weight": 0.013022450565623556
+        },
+        {
+          "word": "baik",
+          "weight": 0.011406570862634987
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.011158031753687066
+        },
+        {
+          "word": "sehat",
+          "weight": 0.010331916698405543
+        },
+        {
+          "word": "terus",
+          "weight": 0.008080395755022927
+        }
+      ]
+    },
+    "4": {
+      "terms": [
+        {
+          "word": "bergizi",
+          "weight": 0.05138903580854515
+        },
+        {
+          "word": "latihan",
+          "weight": 0.04938400612737727
+        },
+        {
+          "word": "makan",
+          "weight": 0.04803631848021262
+        },
+        {
+          "word": "tempat",
+          "weight": 0.03788511184982592
+        },
+        {
+          "word": "makanan",
+          "weight": 0.037503536582283954
+        },
+        {
+          "word": "sangat",
+          "weight": 0.03651392190956703
+        },
+        {
+          "word": "sering",
+          "weight": 0.03593443673110222
+        },
+        {
+          "word": "masak",
+          "weight": 0.035096369269852525
+        },
+        {
+          "word": "peralatan",
+          "weight": 0.03409463992119353
+        },
+        {
+          "word": "bapakibu",
+          "weight": 0.033930269003225266
+        }
+      ]
+    },
+    "5": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.031081303325155702
+        },
+        {
+          "word": "info",
+          "weight": 0.019606752657951906
+        },
+        {
+          "word": "daftar",
+          "weight": 0.017297073389165613
+        },
+        {
+          "word": "pendaftaran",
+          "weight": 0.011207601388370058
+        },
+        {
+          "word": "buat",
+          "weight": 0.009690606619000744
+        },
+        {
+          "word": "peserta",
+          "weight": 0.009505752922227434
+        },
+        {
+          "word": "dapur",
+          "weight": 0.00932329717517436
+        },
+        {
+          "word": "pengumuman",
+          "weight": 0.009137079904930954
+        },
+        {
+          "word": "berkas",
+          "weight": 0.009059641097096246
+        },
+        {
+          "word": "proses",
+          "weight": 0.008400014286991043
+        }
+      ]
+    },
+    "6": {
+      "terms": [
+        {
+          "word": "orang",
+          "weight": 0.02577527543478647
+        },
+        {
+          "word": "bgn",
+          "weight": 0.01599415854202762
+        },
+        {
+          "word": "masyarakat",
+          "weight": 0.01498157306093914
+        },
+        {
+          "word": "ordal",
+          "weight": 0.014675895817836104
+        },
+        {
+          "word": "kalian",
+          "weight": 0.012970702967865668
+        },
+        {
+          "word": "lulusan",
+          "weight": 0.01161341091356498
+        },
+        {
+          "word": "bikin",
+          "weight": 0.010528396896641066
+        },
+        {
+          "word": "banget",
+          "weight": 0.010142059878120937
+        },
+        {
+          "word": "biar",
+          "weight": 0.010138101066822372
+        },
+        {
+          "word": "jangan",
+          "weight": 0.009459345879249445
+        }
+      ]
+    }
+  },
+  "4": {
+    "0": {
+      "terms": [
+        {
+          "word": "buah",
+          "weight": 0.027100591449438417
+        },
+        {
+          "word": "protein",
+          "weight": 0.026897466650810463
+        },
+        {
+          "word": "susu",
+          "weight": 0.026035755302462143
+        },
+        {
+          "word": "piring",
+          "weight": 0.024511611934559845
+        },
+        {
+          "word": "makan",
+          "weight": 0.022225849284832476
+        },
+        {
+          "word": "karbohidrat",
+          "weight": 0.021944147887500605
+        },
+        {
+          "word": "sumber",
+          "weight": 0.020202766224668996
+        },
+        {
+          "word": "seimbang",
+          "weight": 0.019128061064647123
+        },
+        {
+          "word": "nasi",
+          "weight": 0.01883750291704628
+        },
+        {
+          "word": "sayur",
+          "weight": 0.017584915409522554
+        }
+      ]
+    },
+    "1": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.06495594001808874
+        },
+        {
+          "word": "sppg",
+          "weight": 0.03609352449514789
+        },
+        {
+          "word": "bgn",
+          "weight": 0.03381462822898925
+        },
+        {
+          "word": "dapur",
+          "weight": 0.03301760388835798
+        },
+        {
+          "word": "yayasan",
+          "weight": 0.018749095097151332
+        },
+        {
+          "word": "menjadi",
+          "weight": 0.01695893932251156
+        },
+        {
+          "word": "terima",
+          "weight": 0.013137621384975833
+        },
+        {
+          "word": "bagian",
+          "weight": 0.01237981060461254
+        },
+        {
+          "word": "mitra",
+          "weight": 0.012085531068392986
+        },
+        {
+          "word": "rekrutmen",
+          "weight": 0.011742614430918749
+        }
+      ]
+    },
+    "2": {
+      "terms": [
+        {
+          "word": "gizi",
+          "weight": 0.08588885680249615
+        },
+        {
+          "word": "gaji",
+          "weight": 0.04896871207708577
+        },
+        {
+          "word": "ahli",
+          "weight": 0.027553347163509084
+        },
+        {
+          "word": "badan",
+          "weight": 0.02525015846880321
+        },
+        {
+          "word": "sppi",
+          "weight": 0.020634726683737968
+        },
+        {
+          "word": "nasional",
+          "weight": 0.01984362311758082
+        },
+        {
+          "word": "bayar",
+          "weight": 0.011415445841570579
+        },
+        {
+          "word": "akuntan",
+          "weight": 0.011077703037626535
+        },
+        {
+          "word": "pakbu",
+          "weight": 0.010890487965102625
+        },
+        {
+          "word": "hak",
+          "weight": 0.010177908447279739
+        }
+      ]
+    },
+    "3": {
+      "terms": [
+        {
+          "word": "mbg",
+          "weight": 0.04215220656255488
+        },
+        {
+          "word": "makan",
+          "weight": 0.021681243757203313
+        },
+        {
+          "word": "sekolah",
+          "weight": 0.01862906899692587
+        },
+        {
+          "word": "indonesia",
+          "weight": 0.016423767453552014
+        },
+        {
+          "word": "makanan",
+          "weight": 0.014951410033513685
+        },
+        {
+          "word": "gratis",
+          "weight": 0.012759184130308021
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.011460575623370441
+        },
+        {
+          "word": "baik",
+          "weight": 0.01103759958703349
+        },
+        {
+          "word": "sehat",
+          "weight": 0.010358611067751123
+        },
+        {
+          "word": "terus",
+          "weight": 0.008083840219748305
+        }
+      ]
+    },
+    "4": {
+      "terms": [
+        {
+          "word": "latihan",
+          "weight": 0.05125918675631334
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.047536258871508655
+        },
+        {
+          "word": "makan",
+          "weight": 0.04649617599499121
+        },
+        {
+          "word": "tempat",
+          "weight": 0.03772813144723126
+        },
+        {
+          "word": "makanan",
+          "weight": 0.036967417223668114
+        },
+        {
+          "word": "sangat",
+          "weight": 0.03585666962271023
+        },
+        {
+          "word": "sering",
+          "weight": 0.035726854817194995
+        },
+        {
+          "word": "masak",
+          "weight": 0.034527204118732294
+        },
+        {
+          "word": "peralatan",
+          "weight": 0.03450693992568103
+        },
+        {
+          "word": "bahan",
+          "weight": 0.03390670521962162
+        }
+      ]
+    },
+    "5": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.027620307958308485
+        },
+        {
+          "word": "info",
+          "weight": 0.020381501534083198
+        },
+        {
+          "word": "daftar",
+          "weight": 0.016823846949396665
+        },
+        {
+          "word": "pendaftaran",
+          "weight": 0.010937750306298536
+        },
+        {
+          "word": "dapur",
+          "weight": 0.010120618342514922
+        },
+        {
+          "word": "buat",
+          "weight": 0.009574649771070228
+        },
+        {
+          "word": "pengumuman",
+          "weight": 0.009463680635644348
+        },
+        {
+          "word": "peserta",
+          "weight": 0.008759811261067093
+        },
+        {
+          "word": "proses",
+          "weight": 0.008305883282102008
+        },
+        {
+          "word": "berkas",
+          "weight": 0.00826928822530063
+        }
+      ]
+    },
+    "6": {
+      "terms": [
+        {
+          "word": "orang",
+          "weight": 0.024465425969962932
+        },
+        {
+          "word": "bgn",
+          "weight": 0.01642104198750956
+        },
+        {
+          "word": "masyarakat",
+          "weight": 0.016404565813131915
+        },
+        {
+          "word": "ordal",
+          "weight": 0.015276509606374538
+        },
+        {
+          "word": "kalian",
+          "weight": 0.01261318666464282
+        },
+        {
+          "word": "lulusan",
+          "weight": 0.011397031494929965
+        },
+        {
+          "word": "bikin",
+          "weight": 0.010533100982671984
+        },
+        {
+          "word": "banget",
+          "weight": 0.010314764724193345
+        },
+        {
+          "word": "biar",
+          "weight": 0.009813331421867069
+        },
+        {
+          "word": "jangan",
+          "weight": 0.00918901590942676
+        }
+      ]
+    }
+  },
+  "5": {
+    "0": {
+      "terms": [
+        {
+          "word": "protein",
+          "weight": 0.028151613951321288
+        },
+        {
+          "word": "buah",
+          "weight": 0.028026461028733917
+        },
+        {
+          "word": "piring",
+          "weight": 0.025675050909490904
+        },
+        {
+          "word": "karbohidrat",
+          "weight": 0.02278374989823196
+        },
+        {
+          "word": "makan",
+          "weight": 0.022528377492295772
+        },
+        {
+          "word": "susu",
+          "weight": 0.021958228706055533
+        },
+        {
+          "word": "sumber",
+          "weight": 0.02064031147506162
+        },
+        {
+          "word": "seimbang",
+          "weight": 0.019448198754284426
+        },
+        {
+          "word": "nasi",
+          "weight": 0.019054902242812744
+        },
+        {
+          "word": "vitamin",
+          "weight": 0.017965459022835098
+        }
+      ]
+    },
+    "1": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.06715452843405514
+        },
+        {
+          "word": "sppg",
+          "weight": 0.03778063338743864
+        },
+        {
+          "word": "dapur",
+          "weight": 0.03378180772499125
+        },
+        {
+          "word": "bgn",
+          "weight": 0.032851219107642264
+        },
+        {
+          "word": "yayasan",
+          "weight": 0.01943095367010653
+        },
+        {
+          "word": "menjadi",
+          "weight": 0.01734479485881085
+        },
+        {
+          "word": "terima",
+          "weight": 0.013937621365556775
+        },
+        {
+          "word": "bagian",
+          "weight": 0.013025611757408715
+        },
+        {
+          "word": "bangga",
+          "weight": 0.011864079333372904
+        },
+        {
+          "word": "mitra",
+          "weight": 0.011657016766605672
+        }
+      ]
+    },
+    "2": {
+      "terms": [
+        {
+          "word": "gizi",
+          "weight": 0.07982726747401404
+        },
+        {
+          "word": "gaji",
+          "weight": 0.0550766124065504
+        },
+        {
+          "word": "ahli",
+          "weight": 0.026874505674282654
+        },
+        {
+          "word": "badan",
+          "weight": 0.02430150073448501
+        },
+        {
+          "word": "sppi",
+          "weight": 0.021888467472661835
+        },
+        {
+          "word": "nasional",
+          "weight": 0.019852886070603586
+        },
+        {
+          "word": "pakbu",
+          "weight": 0.011671869528553928
+        },
+        {
+          "word": "bayar",
+          "weight": 0.011268478671213616
+        },
+        {
+          "word": "akuntan",
+          "weight": 0.011247050310807841
+        },
+        {
+          "word": "hak",
+          "weight": 0.010134977044169206
+        }
+      ]
+    },
+    "3": {
+      "terms": [
+        {
+          "word": "mbg",
+          "weight": 0.04757146048427233
+        },
+        {
+          "word": "makan",
+          "weight": 0.021991135672097678
+        },
+        {
+          "word": "sekolah",
+          "weight": 0.01781145949112797
+        },
+        {
+          "word": "indonesia",
+          "weight": 0.017117875402093165
+        },
+        {
+          "word": "makanan",
+          "weight": 0.014795117425922079
+        },
+        {
+          "word": "gratis",
+          "weight": 0.012556563230851006
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.011640495291410397
+        },
+        {
+          "word": "baik",
+          "weight": 0.010415462243697266
+        },
+        {
+          "word": "sehat",
+          "weight": 0.01027960269017698
+        },
+        {
+          "word": "terus",
+          "weight": 0.007911922781087188
+        }
+      ]
+    },
+    "4": {
+      "terms": [
+        {
+          "word": "latihan",
+          "weight": 0.0535463306294799
+        },
+        {
+          "word": "makan",
+          "weight": 0.04458974630354722
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.04414977718709325
+        },
+        {
+          "word": "tempat",
+          "weight": 0.03736541715404251
+        },
+        {
+          "word": "makanan",
+          "weight": 0.03652077316477836
+        },
+        {
+          "word": "sering",
+          "weight": 0.03547729006446266
+        },
+        {
+          "word": "sangat",
+          "weight": 0.03495898149826285
+        },
+        {
+          "word": "peralatan",
+          "weight": 0.03451925517441044
+        },
+        {
+          "word": "masak",
+          "weight": 0.03407468639719282
+        },
+        {
+          "word": "bahan",
+          "weight": 0.03367018140317376
+        }
+      ]
+    },
+    "5": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.02424576424735364
+        },
+        {
+          "word": "info",
+          "weight": 0.02136124147364921
+        },
+        {
+          "word": "daftar",
+          "weight": 0.016331132920139775
+        },
+        {
+          "word": "pendaftaran",
+          "weight": 0.010773508845462923
+        },
+        {
+          "word": "dapur",
+          "weight": 0.010721720772529659
+        },
+        {
+          "word": "pengumuman",
+          "weight": 0.00992363201620921
+        },
+        {
+          "word": "buat",
+          "weight": 0.009417067064189778
+        },
+        {
+          "word": "orang",
+          "weight": 0.008238359716853709
+        },
+        {
+          "word": "bgn",
+          "weight": 0.008150693181771201
+        },
+        {
+          "word": "proses",
+          "weight": 0.008110910716548967
+        }
+      ]
+    },
+    "6": {
+      "terms": [
+        {
+          "word": "orang",
+          "weight": 0.023302293050988694
+        },
+        {
+          "word": "masyarakat",
+          "weight": 0.017752562899525908
+        },
+        {
+          "word": "bgn",
+          "weight": 0.01672981129116405
+        },
+        {
+          "word": "ordal",
+          "weight": 0.01616832428125094
+        },
+        {
+          "word": "kalian",
+          "weight": 0.012218708663309463
+        },
+        {
+          "word": "lulusan",
+          "weight": 0.011251963233144497
+        },
+        {
+          "word": "bikin",
+          "weight": 0.010489448215935933
+        },
+        {
+          "word": "banget",
+          "weight": 0.010399051746135828
+        },
+        {
+          "word": "biar",
+          "weight": 0.00944600246064112
+        },
+        {
+          "word": "jangan",
+          "weight": 0.008824349386328824
+        }
+      ]
+    }
+  },
+  "6": {
+    "0": {
+      "terms": [
+        {
+          "word": "protein",
+          "weight": 0.029886655879913866
+        },
+        {
+          "word": "buah",
+          "weight": 0.02884062035297412
+        },
+        {
+          "word": "piring",
+          "weight": 0.02734154136960867
+        },
+        {
+          "word": "karbohidrat",
+          "weight": 0.023878816115415653
+        },
+        {
+          "word": "makan",
+          "weight": 0.023035310886853032
+        },
+        {
+          "word": "sumber",
+          "weight": 0.021121369745422926
+        },
+        {
+          "word": "seimbang",
+          "weight": 0.01980140530132796
+        },
+        {
+          "word": "nasi",
+          "weight": 0.019500515299817462
+        },
+        {
+          "word": "vitamin",
+          "weight": 0.01867693033982156
+        },
+        {
+          "word": "sayur",
+          "weight": 0.01777732017095131
+        }
+      ]
+    },
+    "1": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.06925529800289884
+        },
+        {
+          "word": "sppg",
+          "weight": 0.03871424104283035
+        },
+        {
+          "word": "dapur",
+          "weight": 0.03412009844590134
+        },
+        {
+          "word": "bgn",
+          "weight": 0.03169069300199354
+        },
+        {
+          "word": "yayasan",
+          "weight": 0.019092404732223477
+        },
+        {
+          "word": "menjadi",
+          "weight": 0.017940842014587816
+        },
+        {
+          "word": "terima",
+          "weight": 0.014778010173492614
+        },
+        {
+          "word": "bagian",
+          "weight": 0.01365715678386271
+        },
+        {
+          "word": "bangga",
+          "weight": 0.012940794628037386
+        },
+        {
+          "word": "pendidikan",
+          "weight": 0.01148489919961612
+        }
+      ]
+    },
+    "2": {
+      "terms": [
+        {
+          "word": "gizi",
+          "weight": 0.07079642669065606
+        },
+        {
+          "word": "gaji",
+          "weight": 0.06415598245576996
+        },
+        {
+          "word": "ahli",
+          "weight": 0.02651448700150015
+        },
+        {
+          "word": "sppi",
+          "weight": 0.02329650620902495
+        },
+        {
+          "word": "badan",
+          "weight": 0.023069242881613317
+        },
+        {
+          "word": "nasional",
+          "weight": 0.0194640755476091
+        },
+        {
+          "word": "pakbu",
+          "weight": 0.012593074769253981
+        },
+        {
+          "word": "akuntan",
+          "weight": 0.011438135542868513
+        },
+        {
+          "word": "bayar",
+          "weight": 0.01119415320199736
+        },
+        {
+          "word": "dibayarkan",
+          "weight": 0.010446965150156902
+        }
+      ]
+    },
+    "3": {
+      "terms": [
+        {
+          "word": "mbg",
+          "weight": 0.054842238127723236
+        },
+        {
+          "word": "makan",
+          "weight": 0.02218975790942247
+        },
+        {
+          "word": "sekolah",
+          "weight": 0.017399723768239724
+        },
+        {
+          "word": "indonesia",
+          "weight": 0.01673459160898788
+        },
+        {
+          "word": "makanan",
+          "weight": 0.014767078413647149
+        },
+        {
+          "word": "gratis",
+          "weight": 0.012200238503060276
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.011638427736050939
+        },
+        {
+          "word": "sehat",
+          "weight": 0.01025237930164925
+        },
+        {
+          "word": "baik",
+          "weight": 0.010068495250068761
+        },
+        {
+          "word": "daerah",
+          "weight": 0.008037269139738975
+        }
+      ]
+    },
+    "4": {
+      "terms": [
+        {
+          "word": "latihan",
+          "weight": 0.056458205009384275
+        },
+        {
+          "word": "makan",
+          "weight": 0.04240360438504385
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.04071941335007874
+        },
+        {
+          "word": "tempat",
+          "weight": 0.036683573102165294
+        },
+        {
+          "word": "makanan",
+          "weight": 0.03599208635633193
+        },
+        {
+          "word": "sering",
+          "weight": 0.035044528386927225
+        },
+        {
+          "word": "sangat",
+          "weight": 0.03409253199889193
+        },
+        {
+          "word": "peralatan",
+          "weight": 0.0335488841182955
+        },
+        {
+          "word": "masak",
+          "weight": 0.033499903861973275
+        },
+        {
+          "word": "bahan",
+          "weight": 0.03346308664604227
+        }
+      ]
+    },
+    "5": {
+      "terms": [
+        {
+          "word": "info",
+          "weight": 0.02282620479078199
+        },
+        {
+          "word": "sppi",
+          "weight": 0.02119610895703145
+        },
+        {
+          "word": "daftar",
+          "weight": 0.016093192575375895
+        },
+        {
+          "word": "dapur",
+          "weight": 0.01134516038105103
+        },
+        {
+          "word": "pendaftaran",
+          "weight": 0.010729422798110387
+        },
+        {
+          "word": "pengumuman",
+          "weight": 0.010457942662544857
+        },
+        {
+          "word": "buat",
+          "weight": 0.009345362625305238
+        },
+        {
+          "word": "link",
+          "weight": 0.008705742320401154
+        },
+        {
+          "word": "bgn",
+          "weight": 0.00831331256790647
+        },
+        {
+          "word": "orang",
+          "weight": 0.008311131310812845
+        }
+      ]
+    },
+    "6": {
+      "terms": [
+        {
+          "word": "orang",
+          "weight": 0.022720676965800015
+        },
+        {
+          "word": "masyarakat",
+          "weight": 0.018357492698018753
+        },
+        {
+          "word": "ordal",
+          "weight": 0.01744749232925299
+        },
+        {
+          "word": "bgn",
+          "weight": 0.016995797923191273
+        },
+        {
+          "word": "kalian",
+          "weight": 0.01190120025134697
+        },
+        {
+          "word": "lulusan",
+          "weight": 0.011035345603532505
+        },
+        {
+          "word": "banget",
+          "weight": 0.010507591354436557
+        },
+        {
+          "word": "bikin",
+          "weight": 0.010419194516576864
+        },
+        {
+          "word": "biar",
+          "weight": 0.009195288295420694
+        },
+        {
+          "word": "punya",
+          "weight": 0.008530058745423938
+        }
+      ]
+    }
+  },
+  "7": {
+    "0": {
+      "terms": [
+        {
+          "word": "protein",
+          "weight": 0.03156272145834606
+        },
+        {
+          "word": "buah",
+          "weight": 0.029711256712707607
+        },
+        {
+          "word": "piring",
+          "weight": 0.029230271303544192
+        },
+        {
+          "word": "karbohidrat",
+          "weight": 0.025076184033897542
+        },
+        {
+          "word": "makan",
+          "weight": 0.02365971808179589
+        },
+        {
+          "word": "sumber",
+          "weight": 0.02180928809266934
+        },
+        {
+          "word": "seimbang",
+          "weight": 0.020087653705784442
+        },
+        {
+          "word": "nasi",
+          "weight": 0.020004827033290488
+        },
+        {
+          "word": "vitamin",
+          "weight": 0.01933631804846864
+        },
+        {
+          "word": "sayur",
+          "weight": 0.01773443347369907
+        }
+      ]
+    },
+    "1": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.06184182523243744
+        },
+        {
+          "word": "sppg",
+          "weight": 0.04116978168430338
+        },
+        {
+          "word": "dapur",
+          "weight": 0.03581304715809319
+        },
+        {
+          "word": "bgn",
+          "weight": 0.0314153133887824
+        },
+        {
+          "word": "yayasan",
+          "weight": 0.019408273436775474
+        },
+        {
+          "word": "menjadi",
+          "weight": 0.01728875518072968
+        },
+        {
+          "word": "terima",
+          "weight": 0.01425359611427925
+        },
+        {
+          "word": "bagian",
+          "weight": 0.013535666788040638
+        },
+        {
+          "word": "bangga",
+          "weight": 0.012307177202037866
+        },
+        {
+          "word": "pendidikan",
+          "weight": 0.011544055439929271
+        }
+      ]
+    },
+    "2": {
+      "terms": [
+        {
+          "word": "gaji",
+          "weight": 0.07700150287859976
+        },
+        {
+          "word": "gizi",
+          "weight": 0.06081643772137034
+        },
+        {
+          "word": "ahli",
+          "weight": 0.02575804893669014
+        },
+        {
+          "word": "sppi",
+          "weight": 0.02463872988258476
+        },
+        {
+          "word": "badan",
+          "weight": 0.021268240999315218
+        },
+        {
+          "word": "nasional",
+          "weight": 0.018527763079575297
+        },
+        {
+          "word": "pakbu",
+          "weight": 0.01374970333888151
+        },
+        {
+          "word": "akuntan",
+          "weight": 0.011584029861836837
+        },
+        {
+          "word": "bayar",
+          "weight": 0.011152059802431448
+        },
+        {
+          "word": "dibayarkan",
+          "weight": 0.01099568874364746
+        }
+      ]
+    },
+    "3": {
+      "terms": [
+        {
+          "word": "mbg",
+          "weight": 0.06178390989888155
+        },
+        {
+          "word": "makan",
+          "weight": 0.0231048290150806
+        },
+        {
+          "word": "sekolah",
+          "weight": 0.016871194747614632
+        },
+        {
+          "word": "makanan",
+          "weight": 0.015423056837475514
+        },
+        {
+          "word": "indonesia",
+          "weight": 0.015201827445796462
+        },
+        {
+          "word": "gratis",
+          "weight": 0.011616835967012547
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.011484896254363003
+        },
+        {
+          "word": "sehat",
+          "weight": 0.009941751349998444
+        },
+        {
+          "word": "baik",
+          "weight": 0.00976226918115235
+        },
+        {
+          "word": "daerah",
+          "weight": 0.00843950159443574
+        }
+      ]
+    },
+    "4": {
+      "terms": [
+        {
+          "word": "latihan",
+          "weight": 0.05878797597593459
+        },
+        {
+          "word": "makan",
+          "weight": 0.04094066742322388
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.038093342122220465
+        },
+        {
+          "word": "tempat",
+          "weight": 0.0359573154052932
+        },
+        {
+          "word": "makanan",
+          "weight": 0.03561661936545531
+        },
+        {
+          "word": "sering",
+          "weight": 0.034499191226999376
+        },
+        {
+          "word": "bahan",
+          "weight": 0.033383453423400385
+        },
+        {
+          "word": "sangat",
+          "weight": 0.03324173541798643
+        },
+        {
+          "word": "lapangan",
+          "weight": 0.03312921548432758
+        },
+        {
+          "word": "masak",
+          "weight": 0.032927625782568276
+        }
+      ]
+    },
+    "5": {
+      "terms": [
+        {
+          "word": "info",
+          "weight": 0.024304652554089288
+        },
+        {
+          "word": "sppi",
+          "weight": 0.018560927270004902
+        },
+        {
+          "word": "daftar",
+          "weight": 0.016179727510320336
+        },
+        {
+          "word": "dapur",
+          "weight": 0.011831398091356188
+        },
+        {
+          "word": "pengumuman",
+          "weight": 0.011143423082650676
+        },
+        {
+          "word": "pendaftaran",
+          "weight": 0.010752831847711718
+        },
+        {
+          "word": "link",
+          "weight": 0.009477599099166218
+        },
+        {
+          "word": "buat",
+          "weight": 0.009189699781748939
+        },
+        {
+          "word": "orang",
+          "weight": 0.008448930929797737
+        },
+        {
+          "word": "padahal",
+          "weight": 0.008344389364995186
+        }
+      ]
+    },
+    "6": {
+      "terms": [
+        {
+          "word": "orang",
+          "weight": 0.023718014339902324
+        },
+        {
+          "word": "ordal",
+          "weight": 0.020095026914204304
+        },
+        {
+          "word": "bgn",
+          "weight": 0.017230826589309592
+        },
+        {
+          "word": "masyarakat",
+          "weight": 0.017227218131899567
+        },
+        {
+          "word": "kalian",
+          "weight": 0.011503448639041295
+        },
+        {
+          "word": "lulusan",
+          "weight": 0.01061992920622393
+        },
+        {
+          "word": "banget",
+          "weight": 0.010564184206714679
+        },
+        {
+          "word": "bikin",
+          "weight": 0.010467269733664877
+        },
+        {
+          "word": "biar",
+          "weight": 0.009091472850619701
+        },
+        {
+          "word": "pake",
+          "weight": 0.00874271110196213
+        }
+      ]
+    }
+  },
+  "8": {
+    "0": {
+      "terms": [
+        {
+          "word": "protein",
+          "weight": 0.03159769433954876
+        },
+        {
+          "word": "buah",
+          "weight": 0.029996491034233318
+        },
+        {
+          "word": "piring",
+          "weight": 0.028534531467429895
+        },
+        {
+          "word": "karbohidrat",
+          "weight": 0.024671692699073308
+        },
+        {
+          "word": "makan",
+          "weight": 0.02369751663546842
+        },
+        {
+          "word": "sumber",
+          "weight": 0.02128506175419738
+        },
+        {
+          "word": "nasi",
+          "weight": 0.020064193176566356
+        },
+        {
+          "word": "seimbang",
+          "weight": 0.019850812559184104
+        },
+        {
+          "word": "vitamin",
+          "weight": 0.018957754868150316
+        },
+        {
+          "word": "sayur",
+          "weight": 0.017809431862967868
+        }
+      ]
+    },
+    "1": {
+      "terms": [
+        {
+          "word": "sppi",
+          "weight": 0.05770311363412999
+        },
+        {
+          "word": "sppg",
+          "weight": 0.044182643677933536
+        },
+        {
+          "word": "dapur",
+          "weight": 0.036378287926984755
+        },
+        {
+          "word": "bgn",
+          "weight": 0.030841286770626294
+        },
+        {
+          "word": "yayasan",
+          "weight": 0.019954249073579833
+        },
+        {
+          "word": "menjadi",
+          "weight": 0.016359363006827922
+        },
+        {
+          "word": "terima",
+          "weight": 0.013700768820315762
+        },
+        {
+          "word": "bagian",
+          "weight": 0.013470003431403137
+        },
+        {
+          "word": "pendidikan",
+          "weight": 0.01167574681855529
+        },
+        {
+          "word": "bangga",
+          "weight": 0.011675032187299766
+        }
+      ]
+    },
+    "2": {
+      "terms": [
+        {
+          "word": "gaji",
+          "weight": 0.08920163159055705
+        },
+        {
+          "word": "gizi",
+          "weight": 0.047025845676451676
+        },
+        {
+          "word": "sppi",
+          "weight": 0.026593814297147005
+        },
+        {
+          "word": "ahli",
+          "weight": 0.02409424597509739
+        },
+        {
+          "word": "badan",
+          "weight": 0.018006839504346898
+        },
+        {
+          "word": "nasional",
+          "weight": 0.01590354809322704
+        },
+        {
+          "word": "pakbu",
+          "weight": 0.0157952812276244
+        },
+        {
+          "word": "bayar",
+          "weight": 0.011545041371239989
+        },
+        {
+          "word": "dibayarkan",
+          "weight": 0.01138344028991887
+        },
+        {
+          "word": "akuntan",
+          "weight": 0.011111055609997944
+        }
+      ]
+    },
+    "3": {
+      "terms": [
+        {
+          "word": "mbg",
+          "weight": 0.06827517608394552
+        },
+        {
+          "word": "makan",
+          "weight": 0.022590495853103375
+        },
+        {
+          "word": "sekolah",
+          "weight": 0.016455745530643155
+        },
+        {
+          "word": "makanan",
+          "weight": 0.01601521278914943
+        },
+        {
+          "word": "indonesia",
+          "weight": 0.013675926927233907
+        },
+        {
+          "word": "gratis",
+          "weight": 0.011036026939383792
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.011016966849851244
+        },
+        {
+          "word": "baik",
+          "weight": 0.009710820634855939
+        },
+        {
+          "word": "sehat",
+          "weight": 0.009326014616113387
+        },
+        {
+          "word": "keracunan",
+          "weight": 0.00865182845836435
+        }
+      ]
+    },
+    "4": {
+      "terms": [
+        {
+          "word": "latihan",
+          "weight": 0.057671166049369026
+        },
+        {
+          "word": "makan",
+          "weight": 0.04176103037383503
+        },
+        {
+          "word": "bergizi",
+          "weight": 0.03821641348870751
+        },
+        {
+          "word": "tempat",
+          "weight": 0.037213679322881506
+        },
+        {
+          "word": "makanan",
+          "weight": 0.03594797854584725
+        },
+        {
+          "word": "sering",
+          "weight": 0.0353950698330905
+        },
+        {
+          "word": "lapangan",
+          "weight": 0.03408451213747032
+        },
+        {
+          "word": "bahan",
+          "weight": 0.03336782426420646
+        },
+        {
+          "word": "masak",
+          "weight": 0.03315836066010631
+        },
+        {
+          "word": "sangat",
+          "weight": 0.033120630266539046
+        }
+      ]
+    },
+    "5": {
+      "terms": [
+        {
+          "word": "info",
+          "weight": 0.025969305946779292
+        },
+        {
+          "word": "sppi",
+          "weight": 0.017597275291558426
+        },
+        {
+          "word": "daftar",
+          "weight": 0.017163664874385278
+        },
+        {
+          "word": "dapur",
+          "weight": 0.01243766443597017
+        },
+        {
+          "word": "pendaftaran",
+          "weight": 0.010282705386548734
+        },
+        {
+          "word": "pengumuman",
+          "weight": 0.010259196477498286
+        },
+        {
+          "word": "link",
+          "weight": 0.009161424817594918
+        },
+        {
+          "word": "buat",
+          "weight": 0.008986427951015065
+        },
+        {
+          "word": "orang",
+          "weight": 0.008861887246209134
+        },
+        {
+          "word": "padahal",
+          "weight": 0.008400251934987031
+        }
+      ]
+    },
+    "6": {
+      "terms": [
+        {
+          "word": "orang",
+          "weight": 0.025525804592332325
+        },
+        {
+          "word": "ordal",
+          "weight": 0.024216740504614392
+        },
+        {
+          "word": "bgn",
+          "weight": 0.017194152765115888
+        },
+        {
+          "word": "masyarakat",
+          "weight": 0.01641383917416846
+        },
+        {
+          "word": "kalian",
+          "weight": 0.011255771022931006
+        },
+        {
+          "word": "banget",
+          "weight": 0.01045163504787407
+        },
+        {
+          "word": "lulusan",
+          "weight": 0.010377270253995272
+        },
+        {
+          "word": "bikin",
+          "weight": 0.010326247934203229
+        },
+        {
+          "word": "pake",
+          "weight": 0.009104209087299567
+        },
+        {
+          "word": "biar",
+          "weight": 0.008904734264591914
+        }
+      ]
+    }
+  }
+}

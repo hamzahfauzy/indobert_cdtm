@@ -31,7 +31,8 @@ DOMAIN_STOPWORDS = set([
     "semoga", "selalu", "udah", "jadi", "mau", "tahun", "lolos", "anak",
     "lulus", "batch", "gimana", "kasih", "email", "banyak", "kerja", "sukses", "semangat",
     "seleksi", "program", "jam", "tim", "kurang", "apa", "gram", "surat", "cross", "mana",
-    "salah","selamat","sama"
+    "salah","selamat","sama","lebih","bulan","hari","tersebut","satu","sekali","kapan",
+    "kok","bagaimana","siang","cara","siap","berapa","semua","dulu","benar","piring"
 ])
 
 def remove_domain_stopwords(tokens):
@@ -149,22 +150,25 @@ cdtm_result = {}
 
 for time in range(len(time_slices)):
     cdtm_result[time] = {}
+
     topics = ldaseq.print_topics(time=time, top_terms=10)
 
-    for topic_id, topic_str in topics:
+    for idx, topic in enumerate(topics):
         terms = []
 
-        # parsing: 0.053*sppi + 0.017*seleksi
-        for item in topic_str.split(" + "):
-            weight, word = item.split("*")
+        # topic = (('sppi', weight), ('info', weight))
+        for word, weight in topic:
             terms.append({
-                "word": word.strip(),
+                "word": word,
                 "weight": float(weight)
             })
 
-        cdtm_result[time][topic_id] = terms
+        # pakai index sebagai topic_id
+        cdtm_result[time][idx] = {
+            "terms": terms
+        }
 
-# simpan ke file
+# simpan
 with open("cdtm_topics.json", "w", encoding="utf-8") as f:
     json.dump(cdtm_result, f, ensure_ascii=False, indent=2)
 

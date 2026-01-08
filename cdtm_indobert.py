@@ -5,13 +5,11 @@
 import json
 import re
 import pandas as pd
-# import numpy as np
 import matplotlib.pyplot as plt
 
 from gensim.corpora import Dictionary
 from gensim.models import LdaSeqModel
 from gensim.models import LdaModel
-# from wordcloud import WordCloud
 import warnings
 from datetime import datetime
 
@@ -93,8 +91,10 @@ df = df.sort_values("created_at_dt").reset_index(drop=True)
 # =========================================
 # 3. TIME SLICING (BULANAN)
 # =========================================
-# df["time_slice"] = df["created_at_dt"].dt.to_period("2W-MON")
-df["time_slice"] = df["created_at_dt"].dt.to_period("M")
+df["time_slice"] = df["created_at_dt"].dt.to_period("M").astype(str)
+
+time_map = {p: i for i, p in enumerate(sorted(df["time_slice"].unique()))}
+df["time_slice_id"] = df["time_slice"].map(time_map)
 
 df["clean_text"] = df["text"]
 
@@ -103,18 +103,24 @@ df["clean_text"] = df["text"]
 # =========================================
 texts = [t.split() for t in df["clean_text"]]
 
-texts_cleaned = [
-    [
-        w for w in doc
+texts_cleaned = []
+valid_index = []
+
+for i, text in enumerate(df["clean_text"]):
+    tokens = simple_tokenize(text)
+    tokens = [
+        w for w in tokens
         if w not in STOPWORDS_FINAL
         and len(w) > 2
         and w.isalpha()
     ]
-    for doc in texts
-]
 
-# Safety: buang dokumen kosong
-texts_cleaned = [doc for doc in texts_cleaned if len(doc) > 0]
+    if len(tokens) > 0:
+        texts_cleaned.append(tokens)
+        valid_index.append(i)
+
+# FILTER df AGAR SINKRON
+df = df.loc[valid_index].reset_index(drop=True)
 
 # =========================================
 # 6. DICTIONARY & CORPUS (BoW)
@@ -126,7 +132,7 @@ dictionary.filter_extremes(
     no_above=0.5  # kata terlalu umum dibuang
 )
 
-corpus = [dictionary.doc2bow(text) for text in texts]
+corpus = [dictionary.doc2bow(text) for text in texts_cleaned]
 
 print("Jumlah dokumen :", len(corpus))
 print("Jumlah kata    :", len(dictionary))
@@ -167,88 +173,52 @@ ldaseq = LdaSeqModel(
     passes=1   # PENTING
 )
 
-# =========================================
-# 9. CETAK TOPIK PER WAKTU
-# =========================================
-# for time in range(len(time_slices)):
-#     print(f"\n===== TIME SLICE {time} =====")
-#     topics = ldaseq.print_topics(time=time, top_terms=10)
+dominant_topics = []
+topic_labels = {}
 
-#     for topic in topics:
-#         topic_id = topic[0]
-#         topic_terms = topic[1]
-#         print(f"Topic {topic_id}: {topic_terms}")
+for doc_id, ts in enumerate(df["time_slice_id"].values):
+    topic_dist = ldaseq.doc_topics(doc_id, ts)
+    dominant_topics.append(int(topic_dist.argmax()))
+
+df["dominant_topic"] = dominant_topics
 
 
-def map_topic_labels_dynamic(model, time_slices, top_terms=5):
-    """
-    Label topik per time slice untuk melihat pergeseran narasi
-    """
-    labels = {}
+for t in range(len(time_slices)):
+    topic_labels[t] = {}
 
-    for t in range(len(time_slices)):
-        labels[t] = {}
-        for topic_id in range(model.num_topics):
-            terms = model.print_topic(topic_id, time=t, top_terms=top_terms)
-            words = [w for w, _ in terms]
-            labels[t][topic_id] = "_".join(words[:2])
+    for topic_id, terms in ldaseq.print_topics(time=t, top_terms=5):
+        label = "_".join([w for w, _ in terms[:2]])
+        topic_labels[t][topic_id] = label
 
-    return labels
+df["dominant_topic_label"] = [
+    topic_labels[ts].get(tp, "unknown")
+    for ts, tp in zip(df["time_slice_id"], df["dominant_topic"])
+]
 
-def track_words(model, words, time_slices):
-    """
-    Track probabilitas kata per time slice di semua topik.
-    words: list of words yang ingin di-track
-    return: dict {word: [list probabilitas per slice]}
-    """
-    trend_dict = {w: [] for w in words}
+OUTPUT_JSON = "hasil_cdtm_dengan_sentimen.json"
 
-    for t in range(len(time_slices)):
-        topics = model.print_topics(time=t, top_terms=50)
+# pilih kolom yang mau disimpan
+output_columns = [
+    "username",
+    "text",
+    "created_at",
+    "created_at_dt",
+    "post_url",
+    "sentiment",
+    "sentiment_id",
+    "confidence",
+    "probabilities",
+    "time_slice",
+    "time_slice_id",
+    "dominant_topic"
+]
 
-        # Buat dict kata -> total probabilitas di semua topik
-        word_prob = {w:0.0 for w in words}
+output_data = df[output_columns].to_dict(orient="records")
 
-        for top in topics:
-            # top = ((kata1, prob1), (kata2, prob2), ...)
-            for pair in top:
-                w, p = pair
-                if w in words:
-                    word_prob[w] += p
-
-        # Append hasil tiap slice
-        for w in words:
-            trend_dict[w].append(word_prob[w])
-
-    return trend_dict
-
-def plot_trends(trend_dict):
-    """
-    Plot tren kata per time slice
-    """
-    plt.figure(figsize=(10,6))
-    for word, trend in trend_dict.items():
-        plt.plot(trend, marker='o', label=word)
-    plt.xlabel("Time Slice")
-    plt.ylabel("Probabilitas")
-    plt.title("Tren Kata per Time Slice di cDTM")
-    plt.legend()
-    plt.show()
-
-
-# 1. Buat label topik otomatis (opsional, untuk interpretasi)
-topic_labels = map_topic_labels_dynamic(ldaseq, time_slices)
-print(topic_labels)
+with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
+    json.dump(output_data, f, ensure_ascii=False, indent=2)
 
 end_time = datetime.now()
 duration = end_time - start_time
 print(f"Script finished at : {end_time}")
 print(f"Durasi eksekusi : {duration}")
-# contoh output: {0: 'di_tidak', 1: 'min_tidak', 2: 'kami_untuk'}
-
-# 2. Track kata yang ingin dianalisis
-words_to_track = ["makan", "program", "mbg", "dapur", "gizi", "sppi", "bgn"]
-trend_dict = track_words(ldaseq, words_to_track, time_slices)
-
-# 3. Plot hasil
-plot_trends(trend_dict)
