@@ -182,27 +182,25 @@ for doc_id, ts in enumerate(df["time_slice_id"].values):
 
 df["dominant_topic"] = dominant_topics
 
-def parse_print_topic(topic_str, topn=2):
-    """
-    Parse output print_topic:
-    '0.035*"gizi" + 0.028*"sekolah" + ...'
-    """
-    words = re.findall(r'"([^"]+)"', topic_str)
-    return words[:topn]
+topic_labels = {}
 
 for t in range(len(time_slices)):
     topic_labels[t] = {}
 
     for topic_id in range(NUM_TOPICS):
-        topic_str = ldaseq.print_topic(
+        topic_terms = ldaseq.print_topic(
             topic=topic_id,
             time=t,
             top_terms=5
         )
 
-        words = parse_print_topic(topic_str, topn=2)
-        label = "_".join(words) if words else "unknown"
+        # Jika bentuknya list of tuples → AMAN
+        if isinstance(topic_terms, list):
+            words = [w for w, _ in topic_terms[:2]]
+        else:
+            words = []
 
+        label = "_".join(words) if words else "unknown"
         topic_labels[t][topic_id] = label
 
 
