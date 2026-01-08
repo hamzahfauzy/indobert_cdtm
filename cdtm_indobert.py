@@ -177,18 +177,34 @@ dominant_topics = []
 topic_labels = {}
 
 for doc_id, ts in enumerate(df["time_slice_id"].values):
-    topic_dist = ldaseq.doc_topics(doc_id, ts)
+    topic_dist = ldaseq.doc_topics(doc_id)
     dominant_topics.append(int(topic_dist.argmax()))
 
 df["dominant_topic"] = dominant_topics
 
+def parse_print_topic(topic_str, topn=2):
+    """
+    Parse output print_topic:
+    '0.035*"gizi" + 0.028*"sekolah" + ...'
+    """
+    words = re.findall(r'"([^"]+)"', topic_str)
+    return words[:topn]
 
 for t in range(len(time_slices)):
     topic_labels[t] = {}
 
-    for topic_id, terms in ldaseq.print_topics(time=t, top_terms=5):
-        label = "_".join([w for w, _ in terms[:2]])
+    for topic_id in range(NUM_TOPICS):
+        topic_str = ldaseq.print_topic(
+            topic=topic_id,
+            time=t,
+            top_terms=5
+        )
+
+        words = parse_print_topic(topic_str, topn=2)
+        label = "_".join(words) if words else "unknown"
+
         topic_labels[t][topic_id] = label
+
 
 df["dominant_topic_label"] = [
     topic_labels[ts].get(tp, "unknown")
