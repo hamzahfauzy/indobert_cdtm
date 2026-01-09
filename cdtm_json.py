@@ -53,7 +53,7 @@ warnings.filterwarnings(
 # 1. LOAD DATA JSON
 # =========================================
 
-JSON_FILE = "hasil_prediksi_pakai.json"   # GANTI dengan nama file kamu
+JSON_FILE = "hasil_prediksi.json"   # GANTI dengan nama file kamu
 
 with open(JSON_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)
